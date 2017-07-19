@@ -57,7 +57,7 @@ lgeValue = soup.select("input[name='lge']")[0]['value']
 urlDoLogin = soup.select('#loginform')[0]['action']
 
 
-data = {userParamName: 'OmarHP90m', password1ParamName:'@59754851hp', password2ParamName: '@59754851hp', hiddenParamName:'sth', 'lge':lgeValue, 'login':1}
+data = {userParamName: 'xxxx', password1ParamName:'xxxx', password2ParamName: 'xxxx', hiddenParamName:'sth', 'lge':lgeValue, 'login':1}
 
 r = requests.post("http://httpbin.org/post", data=data, cookies=cookies)
 print(r.text)
