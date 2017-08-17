@@ -56,8 +56,7 @@ password2ParamName = soup.select('#Kf4')[0]['name']
 lgeValue = soup.select("input[name='lge']")[0]['value']
 urlDoLogin = soup.select('#loginform')[0]['action']
 
-
-data = {userParamName: 'OmarHP90m', password1ParamName:'%4059754851hp', password2ParamName: '%4059754851hp', hiddenParamName:'', 'lge':lgeValue, 'login':1}
+data = {userParamName: 'xxxx', password1ParamName:'xxxx', password2ParamName: 'xxxx', hiddenParamName:'sth', 'lge':lgeValue, 'login':1}
 
 headers = {"Content-Type": "application/x-www-form-urlencoded; charset=UTF-8"}
 headers['accept']='accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
