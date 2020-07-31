@@ -14,9 +14,9 @@ usernameInput = driver.find_element_by_id('Kf1')
 password1Input = driver.find_element_by_id('Kf2')
 password2Input = driver.find_element_by_id('Kf4')
 
-usernameInput.send_keys('OmarHP90m')
-password1Input.send_keys('@59754851hp')
-password2Input.send_keys('@59754851hp')
+usernameInput.send_keys('xxxx')
+password1Input.send_keys('xxxxx')
+password2Input.send_keys('xxxxx')
 
 time.sleep(20) # Let the user actually see something!
 submitButton = driver.find_element_by_id('botao_login')
